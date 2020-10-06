@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 const Header = () => {
   const NavBar = styled(Navbar)`
-    // background-color: white !important;
+    height: 88px;
   `;
   const NavCollapse = styled(Navbar.Collapse)`
     padding-right: 19vw;
@@ -36,7 +36,7 @@ const Header = () => {
   `;
 
   return (
-    <NavBar bg="light" expand="md">
+    <NavBar bg="light" expand="md" fixed="top">
       <NavBrand href="#home">
         <img
           src={Branch8Logo}
