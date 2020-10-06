@@ -16,7 +16,9 @@ const Clients = () => {
     { src: LifungImg, alt: 'LifungImg' },
     { src: GPBatteryImg, alt: 'GPBatteryImg' },
   ];
-  return <DeepGreenBanner images={images} title="Clients" />;
+  return (
+    <DeepGreenBanner images={images} title="Clients" paddingBottom="10px" />
+  );
 };
 
 export default Clients;

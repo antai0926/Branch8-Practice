@@ -2,22 +2,23 @@ import React from 'react';
 import styled from 'styled-components';
 
 const DeepGreenBanner = (props) => {
-  const { images, title } = props;
+  const { images, title, gap, paddingBottom } = props;
   const DeepGreenContainer = styled.div`
     background-color: #3e5c50;
     display: flex;
     flex-direction: column;
+    gap: ${gap};
     justify-contents: center;
     align-items: center;
     padding-top: 40px;
-    padding-bottom: 10px;
+    padding-bottom: ${paddingBottom};
   `;
   const Title = styled.div`
     color: white;
     font-family: roboto-bold, roboto, sans-serif;
     font-weight: 700;
     font-size: 23px;
-    @media (max-width: 460px) {
+    @media (max-width: 550px) {
       margin-bottom: 10px;
     }
   `;
@@ -34,7 +35,7 @@ const DeepGreenBanner = (props) => {
       row-gap: 0;
       padding-bottom: 30px;
     }
-    @media (max-width: 460px) {
+    @media (max-width: 550px) {
       grid-template-columns: auto auto;
       grid-template-rows: auto auto auto;
       column-gap: 10px;
@@ -42,14 +43,22 @@ const DeepGreenBanner = (props) => {
       padding-bottom: 30px;
     }
   `;
-  const ClientImage = styled.div``;
+  const ClientImage = styled.div`
+    display: flex;
+    justify-content: center;
+  `;
   return (
     <DeepGreenContainer>
       <Title>{title}</Title>
       <ClientsContainer>
         {images.map((image) => (
           <ClientImage>
-            <img src={image.src} alt={image.alt} />
+            <img
+              src={image.src}
+              alt={image.alt}
+              width={image.width}
+              height={image.height}
+            />
           </ClientImage>
         ))}
       </ClientsContainer>
