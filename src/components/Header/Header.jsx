@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 const Header = () => {
   const NavBar = styled(Navbar)`
-    height: 88px;
+    background-color: white !important;
   `;
   const NavCollapse = styled(Navbar.Collapse)`
     padding-right: 19vw;
