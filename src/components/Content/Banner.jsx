@@ -64,6 +64,16 @@ const Banner = () => {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.6);
+    transition: background-color 0.5s ease;
+    &:hover {
+      background-color: #d1e0eb;
+      cursor: pointer;
+      a {
+        color: black;
+        text-decoration: none;
+      }
+    }
     @media (max-width: 1040px) {
       margin-top: 50px;
     }
