@@ -9,12 +9,13 @@ const DeepGreenBanner = (props) => {
     flex-direction: column;
     justify-contents: center;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 10px;
   `;
   const Title = styled.div`
     color: white;
     font-family: roboto-bold, roboto, sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 23px;
     @media (max-width: 460px) {
       margin-bottom: 10px;

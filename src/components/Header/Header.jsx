@@ -12,7 +12,7 @@ const Header = () => {
     padding-right: 19vw;
     padding-top: 16px;
     padding-bottom: 16px;
-    @media (max-width: 930px) {
+    @media (max-width: 960px) {
       padding-right: 5vw;
     }
   `;
@@ -32,6 +32,10 @@ const Header = () => {
     border-radius: 4px;
     &:hover {
       background-color: #e3e2e1;
+    }
+    @media (max-width: 810px) {
+      padding-right: 12px !important;
+      padding-left: 12px !important;
     }
   `;
 
