@@ -40,6 +40,9 @@ const Services = () => {
     color: #292929;
     font-size: 23px;
     margin-bottom: 10px;
+    @media (max-width: 938px) {
+      text-align: center;
+    }
   `;
   const Description = styled.div`
     color: black;
