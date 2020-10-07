@@ -28,6 +28,8 @@ export const NavLink = styled(Nav.Link)`
   padding-left: 18px !important;
   transition: background-color 0.5s ease;
   border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
   &:hover {
     background-color: #e3e2e1;
   }
