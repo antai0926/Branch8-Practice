@@ -10,14 +10,14 @@ export const NavCollapse = styled(Navbar.Collapse)`
   padding-right: 19vw;
   padding-top: 16px;
   padding-bottom: 16px;
-  @media (max-width: 960px) {
+  @media (max-width: 980px) {
     padding-right: 5vw;
   }
 `;
 export const NavBrand = styled(Navbar.Brand)`
   margin-left: 15vw;
   padding-bottom: 10px;
-  @media (max-width: 1100px) {
+  @media (max-width: 1120px) {
     margin-left: 5vw;
   }
 `;
@@ -33,7 +33,7 @@ export const NavLink = styled(Nav.Link)`
   &:hover {
     background-color: #e3e2e1;
   }
-  @media (max-width: 810px) {
+  @media (max-width: 820px) {
     padding-right: 12px !important;
     padding-left: 12px !important;
   }
