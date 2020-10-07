@@ -6,6 +6,7 @@ import Services from './Services';
 import MediaAttention from './MediaAttention';
 import Products from './Products';
 import PeopleSay from './PeopleSay';
+import BackedBy from './BackedBy';
 
 import { Container } from './Content.styled';
 
@@ -18,6 +19,7 @@ const Content = () => {
       <Products />
       <MediaAttention />
       <PeopleSay />
+      <BackedBy />
     </Container>
   );
 };
