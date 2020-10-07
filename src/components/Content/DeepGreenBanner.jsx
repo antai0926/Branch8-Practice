@@ -52,7 +52,7 @@ const DeepGreenBanner = (props) => {
       <Title>{title}</Title>
       <ClientsContainer>
         {images.map((image) => (
-          <ClientImage>
+          <ClientImage key={image.src}>
             <img
               src={image.src}
               alt={image.alt}

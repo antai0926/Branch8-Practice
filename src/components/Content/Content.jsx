@@ -4,6 +4,7 @@ import Banner from './Banner';
 import Clients from './Clients';
 import Services from './Services';
 import MediaAttention from './MediaAttention';
+import Products from './Products';
 
 const Container = styled.div`
   padding-top: 88px;
@@ -18,6 +19,7 @@ const Content = () => {
       <Banner />
       <Clients />
       <Services />
+      <Products />
       <MediaAttention />
     </Container>
   );
