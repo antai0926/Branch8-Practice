@@ -1,11 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
 import ProductCard from './ProductCard';
 
 import MagentoImg from '../../assets/img/products/Magento.webp';
 import ShopifyImg from '../../assets/img/products/Shopify.webp';
 import OpenCartImg from '../../assets/img/products/opencart.webp';
 import CowsquareImg from '../../assets/img/products/cowsqaure.webp';
+
+import { Container, Cards } from './Products.styled';
 
 const Products = () => {
   const cards = [
@@ -42,27 +43,7 @@ const Products = () => {
       ),
     },
   ];
-  const Container = styled.div`
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    padding: 40px 0;
-  `;
-  const Cards = styled.div`
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gird- template-rows: auto;
-    justify-items: center;
-    gap: 30px;
-    @media (max-width:930px){
-      grid-template-columns: auto auto;
-      gird- template-rows: auto auto;
-    }
-    @media (max-width:460px){
-      grid-template-columns: auto;
-      gird- template-rows: auto auto auto auto;
-    }
-  `;
+
   return (
     <Container>
       <Cards>
