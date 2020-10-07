@@ -15,7 +15,7 @@ import {
 
 const Services = () => {
   return (
-    <Container>
+    <Container gap="40px">
       <Row>
         <Title>Our Services</Title>
       </Row>

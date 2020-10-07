@@ -33,10 +33,9 @@ export const ClientsContainer = styled.div`
     padding-bottom: 30px;
   }
   @media (max-width: 550px) {
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
-    column-gap: 10px;
-    row-gap: 0;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 20px;
     padding-bottom: 30px;
   }
 `;

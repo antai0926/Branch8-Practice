@@ -4,7 +4,8 @@ export const Container = styled.div`
   padding: 40px 0 60px 0;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: ${(props) => props.gap};
+  ${(props) => console.log('gap', props.gap)}
   align-items: center;
   background-color: #dde7ed;
   font-family: roboto-bold, roboto, sans-serif;

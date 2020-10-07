@@ -5,6 +5,7 @@ import Clients from './Clients';
 import Services from './Services';
 import MediaAttention from './MediaAttention';
 import Products from './Products';
+import PeopleSay from './PeopleSay';
 
 import { Container } from './Content.styled';
 
@@ -16,6 +17,7 @@ const Content = () => {
       <Services />
       <Products />
       <MediaAttention />
+      <PeopleSay />
     </Container>
   );
 };
