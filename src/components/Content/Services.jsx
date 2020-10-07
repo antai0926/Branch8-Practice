@@ -27,7 +27,6 @@ const Services = () => {
           <ElTitle>Consulting</ElTitle>
           <Description>
             We strategize, design, build and implement omni-channel B2C and B2B
-            <br />
             commerce capabilities, platforms and systems.
           </Description>
         </Element>
@@ -37,7 +36,6 @@ const Services = () => {
           <ElTitle>IT Implementation</ElTitle>
           <Description>
             We strategize, design, build and implement omni-channel B2C and B2B
-            <br />
             commerce capabilities, platforms and systems.
           </Description>
         </Element>

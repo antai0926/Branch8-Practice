@@ -43,4 +43,5 @@ export const ElTitle = styled.div`
 export const Description = styled.div`
   color: black;
   font-size: 16px;
+  max-width: 500px;
 `;
